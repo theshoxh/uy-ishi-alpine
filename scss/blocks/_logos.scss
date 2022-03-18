@@ -1,0 +1,14 @@
+.logos__wrapper {
+  width: 842px;
+  margin: 0 auto;
+  transform: translateY(-500px);
+}
+
+.logos__list {
+  @include flexStyle(center, space-between);
+  @extend %list-no-style ;
+
+  &__item {
+    margin-bottom: 3px;
+  }
+}

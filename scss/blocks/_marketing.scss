@@ -1,0 +1,115 @@
+.marketing__box {
+  padding-bottom: 61px;
+}
+.marketing__wrapper {
+  width: 842px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 61px;
+}
+
+.marketing__wrap {
+  @include flexStyle(flex-start, flex-start);
+}
+
+.marketing__costomer {
+  @include flexStyle(center, flex-start);
+}
+
+.marketing__last-mini-heading {
+  margin: 0;
+  padding: 0;
+}
+
+.marketing__costomer {
+  margin-bottom: 150px;
+}
+
+.marketing__last-costomer {
+  width: 315px;
+  margin-left: 74px;
+}
+
+.marketing__last-mini-heading {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 149.8%;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.marketing__last-mini-text {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.picture--higher {
+  position: relative;
+  top: -60px;
+  right: 40px;
+  z-index: 2;
+}
+
+.picture--second {
+  position: absolute;
+  right: 159px;
+}
+
+.marketing__title {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.marketing__title--span {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.marketing__div {
+  @include flexStyle( center, space-between)
+}
+
+.marketing__div {
+  width: 572px;
+  margin: 0 auto;
+}
+
+.marketing__title {
+  margin: 0;
+  padding: 0;
+}
+
+.marketing__helper {
+  @include flexStyle(center, flex-start)
+}
+
+.marketing__helper {
+  background: linear-gradient(180deg, #864A23 0%, #6A3A1B 100%);
+  border-radius: 20px;
+}
+
+.marketing__link--read {
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 8px;
+  padding-left: 35px;
+  padding-left: 6px;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.marketing__img {
+  width: 12px;
+  height: 11px;
+}

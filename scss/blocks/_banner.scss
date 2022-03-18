@@ -1,0 +1,8 @@
+.banner__list {
+  width: 826px;
+  @include flexStyle(center, space-between);
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 141px;
+}

@@ -1,0 +1,117 @@
+.notifications {
+  width: 453px;
+  margin-left: 80px;
+  margin-bottom: 25px;
+  @include flexStyle(center, space-between)
+}
+
+.notifications__text {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #ffffff;
+}
+
+.notifications__text--number {
+  padding-top: 2px;
+  padding-right: 13px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  margin-right: 9px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #ffffff;
+  background-color: #ff1640;
+  border-radius: 50%;
+}
+
+.notifications__btn {
+  padding-right: 14px;
+  @include flexStyle(center, flex-start);
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 149.8%;
+  color: #2D2828;
+  background-color: #c4c4c4;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.notifications__img {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+}
+
+
+.marketing__mini-costomer {
+  width: 453px;
+  height: 128px;
+  margin-left: 67px;
+  @include flexStyle(flex-start, space-between);
+  background-image: url("../../img/notifications-bg.png");
+}
+
+.marketing__main-div {
+  @include flexStyle(center, flex-start);
+  margin-top: 14px;
+  margin-left: 17px;
+}
+
+.main-div-span {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: rgb(45, 40, 40);
+}
+
+.main-div-text {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: rgba(45, 40, 40, 0.7);
+}
+
+.mini-div-wrapper {
+  margin-top: 19px;
+  margin-right: 29px;
+}
+
+.mini-div-heading {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 149.8%;
+  color: rgb(45, 40, 40);
+}
+
+.mini-div-text {
+  margin: 0;
+  padding: 0;
+  width: 251px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #2D2828;
+}
+
+.marketing__last-img {
+  margin-right: 17px;
+}
